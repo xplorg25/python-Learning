@@ -1,0 +1,608 @@
+2025-04-09 17:39:15,093 - INFO - Starting data processing job
+2025-04-09 17:39:15,094 - ERROR - Fatal error in main process: name 'mongo' is not defined
+Traceback (most recent call last):
+  File "/home/Manthan/Python/Learning Alarma & Co-relations/Learning/LearningBase.py", line 242, in main
+    connection = dbd.getConnection()
+  File "/home/Manthan/Python/Learning Alarma & Co-relations/Learning/DB_details.py", line 20, in getConnection
+    connection = mongo.MongoClient(
+NameError: name 'mongo' is not defined
+2025-04-09 17:39:15,094 - INFO - Data processing job ended
+2025-04-09 17:39:52,571 - INFO - Starting data processing job
+2025-04-09 17:39:52,577 - INFO - MongoDB connection established
+2025-04-09 17:39:52,577 - INFO - Checking and creating required indexes...
+2025-04-09 17:39:52,593 - INFO - All required indexes are in place
+2025-04-09 17:39:52,593 - INFO - Retrieving distinct dates for processing
+2025-04-09 17:39:52,599 - INFO - Found 120 dates to process
+2025-04-09 17:39:52,599 - INFO - Processing date 1/120: 2024-11-01
+2025-04-09 17:39:52,599 - INFO - Processing day: 2024-11-01
+2025-04-09 17:39:52,647 - INFO - Final bulk write completed. Upserted: 0, Modified: 3
+2025-04-09 17:39:52,647 - INFO - Day 2024-11-01 completed in 0.00 minutes. Total documents processed: 96, Inserted: 0
+2025-04-09 17:39:52,647 - INFO - Progress: 1/120 dates processed (0.8%)
+2025-04-09 17:39:52,647 - INFO - Processing date 2/120: 2024-11-02
+2025-04-09 17:39:52,647 - INFO - Processing day: 2024-11-02
+2025-04-09 17:39:52,681 - INFO - Day 2024-11-02 completed in 0.00 minutes. Total documents processed: 81, Inserted: 0
+2025-04-09 17:39:52,682 - INFO - Progress: 2/120 dates processed (1.7%)
+2025-04-09 17:39:52,682 - INFO - Processing date 3/120: 2024-11-03
+2025-04-09 17:39:52,682 - INFO - Processing day: 2024-11-03
+2025-04-09 17:39:52,742 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:52,742 - INFO - Day 2024-11-03 completed in 0.00 minutes. Total documents processed: 139, Inserted: 0
+2025-04-09 17:39:52,743 - INFO - Progress: 3/120 dates processed (2.5%)
+2025-04-09 17:39:52,743 - INFO - Processing date 4/120: 2024-11-04
+2025-04-09 17:39:52,743 - INFO - Processing day: 2024-11-04
+2025-04-09 17:39:52,784 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:52,785 - INFO - Day 2024-11-04 completed in 0.00 minutes. Total documents processed: 92, Inserted: 0
+2025-04-09 17:39:52,785 - INFO - Progress: 4/120 dates processed (3.3%)
+2025-04-09 17:39:52,785 - INFO - Processing date 5/120: 2024-11-05
+2025-04-09 17:39:52,785 - INFO - Processing day: 2024-11-05
+2025-04-09 17:39:52,838 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:52,839 - INFO - Day 2024-11-05 completed in 0.00 minutes. Total documents processed: 85, Inserted: 0
+2025-04-09 17:39:52,839 - INFO - Progress: 5/120 dates processed (4.2%)
+2025-04-09 17:39:52,839 - INFO - Processing date 6/120: 2024-11-06
+2025-04-09 17:39:52,839 - INFO - Processing day: 2024-11-06
+2025-04-09 17:39:52,898 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:52,898 - INFO - Day 2024-11-06 completed in 0.00 minutes. Total documents processed: 131, Inserted: 0
+2025-04-09 17:39:52,898 - INFO - Progress: 6/120 dates processed (5.0%)
+2025-04-09 17:39:52,898 - INFO - Processing date 7/120: 2024-11-07
+2025-04-09 17:39:52,898 - INFO - Processing day: 2024-11-07
+2025-04-09 17:39:52,961 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:52,961 - INFO - Day 2024-11-07 completed in 0.00 minutes. Total documents processed: 151, Inserted: 0
+2025-04-09 17:39:52,962 - INFO - Progress: 7/120 dates processed (5.8%)
+2025-04-09 17:39:52,962 - INFO - Processing date 8/120: 2024-11-08
+2025-04-09 17:39:52,962 - INFO - Processing day: 2024-11-08
+2025-04-09 17:39:53,109 - INFO - Final bulk write completed. Upserted: 0, Modified: 4
+2025-04-09 17:39:53,109 - INFO - Day 2024-11-08 completed in 0.00 minutes. Total documents processed: 323, Inserted: 0
+2025-04-09 17:39:53,109 - INFO - Progress: 8/120 dates processed (6.7%)
+2025-04-09 17:39:53,110 - INFO - Processing date 9/120: 2024-11-09
+2025-04-09 17:39:53,110 - INFO - Processing day: 2024-11-09
+2025-04-09 17:39:53,235 - INFO - Final bulk write completed. Upserted: 0, Modified: 4
+2025-04-09 17:39:53,235 - INFO - Day 2024-11-09 completed in 0.00 minutes. Total documents processed: 309, Inserted: 0
+2025-04-09 17:39:53,235 - INFO - Progress: 9/120 dates processed (7.5%)
+2025-04-09 17:39:53,235 - INFO - Processing date 10/120: 2024-11-10
+2025-04-09 17:39:53,235 - INFO - Processing day: 2024-11-10
+2025-04-09 17:39:53,275 - INFO - Day 2024-11-10 completed in 0.00 minutes. Total documents processed: 98, Inserted: 0
+2025-04-09 17:39:53,275 - INFO - Progress: 10/120 dates processed (8.3%)
+2025-04-09 17:39:53,275 - INFO - Processing date 11/120: 2024-11-11
+2025-04-09 17:39:53,275 - INFO - Processing day: 2024-11-11
+2025-04-09 17:39:53,317 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:53,317 - INFO - Day 2024-11-11 completed in 0.00 minutes. Total documents processed: 103, Inserted: 0
+2025-04-09 17:39:53,317 - INFO - Progress: 11/120 dates processed (9.2%)
+2025-04-09 17:39:53,317 - INFO - Processing date 12/120: 2024-11-12
+2025-04-09 17:39:53,317 - INFO - Processing day: 2024-11-12
+2025-04-09 17:39:53,345 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:53,346 - INFO - Day 2024-11-12 completed in 0.00 minutes. Total documents processed: 64, Inserted: 0
+2025-04-09 17:39:53,346 - INFO - Progress: 12/120 dates processed (10.0%)
+2025-04-09 17:39:53,346 - INFO - Processing date 13/120: 2024-11-13
+2025-04-09 17:39:53,346 - INFO - Processing day: 2024-11-13
+2025-04-09 17:39:53,394 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:53,394 - INFO - Day 2024-11-13 completed in 0.00 minutes. Total documents processed: 83, Inserted: 0
+2025-04-09 17:39:53,394 - INFO - Progress: 13/120 dates processed (10.8%)
+2025-04-09 17:39:53,394 - INFO - Processing date 14/120: 2024-11-14
+2025-04-09 17:39:53,394 - INFO - Processing day: 2024-11-14
+2025-04-09 17:39:53,437 - INFO - Final bulk write completed. Upserted: 0, Modified: 17
+2025-04-09 17:39:53,437 - INFO - Day 2024-11-14 completed in 0.00 minutes. Total documents processed: 83, Inserted: 0
+2025-04-09 17:39:53,437 - INFO - Progress: 14/120 dates processed (11.7%)
+2025-04-09 17:39:53,437 - INFO - Processing date 15/120: 2024-11-15
+2025-04-09 17:39:53,438 - INFO - Processing day: 2024-11-15
+2025-04-09 17:39:53,493 - INFO - Final bulk write completed. Upserted: 0, Modified: 16
+2025-04-09 17:39:53,493 - INFO - Day 2024-11-15 completed in 0.00 minutes. Total documents processed: 124, Inserted: 0
+2025-04-09 17:39:53,493 - INFO - Progress: 15/120 dates processed (12.5%)
+2025-04-09 17:39:53,493 - INFO - Processing date 16/120: 2024-11-16
+2025-04-09 17:39:53,493 - INFO - Processing day: 2024-11-16
+2025-04-09 17:39:53,610 - INFO - Final bulk write completed. Upserted: 0, Modified: 68
+2025-04-09 17:39:53,610 - INFO - Day 2024-11-16 completed in 0.00 minutes. Total documents processed: 140, Inserted: 0
+2025-04-09 17:39:53,610 - INFO - Progress: 16/120 dates processed (13.3%)
+2025-04-09 17:39:53,610 - INFO - Processing date 17/120: 2024-11-17
+2025-04-09 17:39:53,610 - INFO - Processing day: 2024-11-17
+2025-04-09 17:39:53,727 - INFO - Final bulk write completed. Upserted: 0, Modified: 87
+2025-04-09 17:39:53,728 - INFO - Day 2024-11-17 completed in 0.00 minutes. Total documents processed: 87, Inserted: 0
+2025-04-09 17:39:53,728 - INFO - Progress: 17/120 dates processed (14.2%)
+2025-04-09 17:39:53,728 - INFO - Processing date 18/120: 2024-11-18
+2025-04-09 17:39:53,728 - INFO - Processing day: 2024-11-18
+2025-04-09 17:39:53,785 - INFO - Final bulk write completed. Upserted: 0, Modified: 49
+2025-04-09 17:39:53,785 - INFO - Day 2024-11-18 completed in 0.00 minutes. Total documents processed: 57, Inserted: 0
+2025-04-09 17:39:53,785 - INFO - Progress: 18/120 dates processed (15.0%)
+2025-04-09 17:39:53,785 - INFO - Processing date 19/120: 2024-11-19
+2025-04-09 17:39:53,785 - INFO - Processing day: 2024-11-19
+2025-04-09 17:39:53,844 - INFO - Final bulk write completed. Upserted: 0, Modified: 59
+2025-04-09 17:39:53,845 - INFO - Day 2024-11-19 completed in 0.00 minutes. Total documents processed: 96, Inserted: 0
+2025-04-09 17:39:53,845 - INFO - Progress: 19/120 dates processed (15.8%)
+2025-04-09 17:39:53,845 - INFO - Processing date 20/120: 2024-11-20
+2025-04-09 17:39:53,845 - INFO - Processing day: 2024-11-20
+2025-04-09 17:39:53,897 - INFO - Final bulk write completed. Upserted: 0, Modified: 14
+2025-04-09 17:39:53,897 - INFO - Day 2024-11-20 completed in 0.00 minutes. Total documents processed: 101, Inserted: 0
+2025-04-09 17:39:53,897 - INFO - Progress: 20/120 dates processed (16.7%)
+2025-04-09 17:39:53,897 - INFO - Processing date 21/120: 2024-11-21
+2025-04-09 17:39:53,897 - INFO - Processing day: 2024-11-21
+2025-04-09 17:39:53,940 - INFO - Final bulk write completed. Upserted: 0, Modified: 12
+2025-04-09 17:39:53,940 - INFO - Day 2024-11-21 completed in 0.00 minutes. Total documents processed: 88, Inserted: 0
+2025-04-09 17:39:53,941 - INFO - Progress: 21/120 dates processed (17.5%)
+2025-04-09 17:39:53,941 - INFO - Processing date 22/120: 2024-11-22
+2025-04-09 17:39:53,941 - INFO - Processing day: 2024-11-22
+2025-04-09 17:39:53,994 - INFO - Final bulk write completed. Upserted: 0, Modified: 28
+2025-04-09 17:39:53,994 - INFO - Day 2024-11-22 completed in 0.00 minutes. Total documents processed: 94, Inserted: 0
+2025-04-09 17:39:53,994 - INFO - Progress: 22/120 dates processed (18.3%)
+2025-04-09 17:39:53,994 - INFO - Processing date 23/120: 2024-11-23
+2025-04-09 17:39:53,994 - INFO - Processing day: 2024-11-23
+2025-04-09 17:39:54,047 - INFO - Final bulk write completed. Upserted: 0, Modified: 21
+2025-04-09 17:39:54,047 - INFO - Day 2024-11-23 completed in 0.00 minutes. Total documents processed: 103, Inserted: 0
+2025-04-09 17:39:54,047 - INFO - Progress: 23/120 dates processed (19.2%)
+2025-04-09 17:39:54,047 - INFO - Processing date 24/120: 2024-11-24
+2025-04-09 17:39:54,047 - INFO - Processing day: 2024-11-24
+2025-04-09 17:39:54,090 - INFO - Final bulk write completed. Upserted: 0, Modified: 7
+2025-04-09 17:39:54,090 - INFO - Day 2024-11-24 completed in 0.00 minutes. Total documents processed: 94, Inserted: 0
+2025-04-09 17:39:54,090 - INFO - Progress: 24/120 dates processed (20.0%)
+2025-04-09 17:39:54,090 - INFO - Processing date 25/120: 2024-11-25
+2025-04-09 17:39:54,090 - INFO - Processing day: 2024-11-25
+2025-04-09 17:39:54,130 - INFO - Final bulk write completed. Upserted: 0, Modified: 3
+2025-04-09 17:39:54,130 - INFO - Day 2024-11-25 completed in 0.00 minutes. Total documents processed: 85, Inserted: 0
+2025-04-09 17:39:54,130 - INFO - Progress: 25/120 dates processed (20.8%)
+2025-04-09 17:39:54,130 - INFO - Processing date 26/120: 2024-11-26
+2025-04-09 17:39:54,130 - INFO - Processing day: 2024-11-26
+2025-04-09 17:39:54,154 - INFO - Final bulk write completed. Upserted: 0, Modified: 2
+2025-04-09 17:39:54,154 - INFO - Day 2024-11-26 completed in 0.00 minutes. Total documents processed: 54, Inserted: 0
+2025-04-09 17:39:54,154 - INFO - Progress: 26/120 dates processed (21.7%)
+2025-04-09 17:39:54,154 - INFO - Processing date 27/120: 2024-11-27
+2025-04-09 17:39:54,155 - INFO - Processing day: 2024-11-27
+2025-04-09 17:39:54,201 - INFO - Final bulk write completed. Upserted: 0, Modified: 10
+2025-04-09 17:39:54,201 - INFO - Day 2024-11-27 completed in 0.00 minutes. Total documents processed: 101, Inserted: 0
+2025-04-09 17:39:54,201 - INFO - Progress: 27/120 dates processed (22.5%)
+2025-04-09 17:39:54,201 - INFO - Processing date 28/120: 2024-11-28
+2025-04-09 17:39:54,201 - INFO - Processing day: 2024-11-28
+2025-04-09 17:39:54,242 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:54,242 - INFO - Day 2024-11-28 completed in 0.00 minutes. Total documents processed: 94, Inserted: 0
+2025-04-09 17:39:54,243 - INFO - Progress: 28/120 dates processed (23.3%)
+2025-04-09 17:39:54,243 - INFO - Processing date 29/120: 2024-11-29
+2025-04-09 17:39:54,243 - INFO - Processing day: 2024-11-29
+2025-04-09 17:39:54,289 - INFO - Final bulk write completed. Upserted: 0, Modified: 20
+2025-04-09 17:39:54,289 - INFO - Day 2024-11-29 completed in 0.00 minutes. Total documents processed: 95, Inserted: 0
+2025-04-09 17:39:54,290 - INFO - Progress: 29/120 dates processed (24.2%)
+2025-04-09 17:39:54,290 - INFO - Processing date 30/120: 2024-11-30
+2025-04-09 17:39:54,290 - INFO - Processing day: 2024-11-30
+2025-04-09 17:39:54,343 - INFO - Final bulk write completed. Upserted: 0, Modified: 10
+2025-04-09 17:39:54,343 - INFO - Day 2024-11-30 completed in 0.00 minutes. Total documents processed: 66, Inserted: 0
+2025-04-09 17:39:54,343 - INFO - Progress: 30/120 dates processed (25.0%)
+2025-04-09 17:39:54,343 - INFO - Processing date 31/120: 2024-12-01
+2025-04-09 17:39:54,343 - INFO - Processing day: 2024-12-01
+2025-04-09 17:39:54,381 - INFO - Final bulk write completed. Upserted: 0, Modified: 3
+2025-04-09 17:39:54,381 - INFO - Day 2024-12-01 completed in 0.00 minutes. Total documents processed: 86, Inserted: 0
+2025-04-09 17:39:54,381 - INFO - Progress: 31/120 dates processed (25.8%)
+2025-04-09 17:39:54,381 - INFO - Processing date 32/120: 2024-12-02
+2025-04-09 17:39:54,381 - INFO - Processing day: 2024-12-02
+2025-04-09 17:39:54,434 - INFO - Final bulk write completed. Upserted: 0, Modified: 13
+2025-04-09 17:39:54,434 - INFO - Day 2024-12-02 completed in 0.00 minutes. Total documents processed: 114, Inserted: 0
+2025-04-09 17:39:54,434 - INFO - Progress: 32/120 dates processed (26.7%)
+2025-04-09 17:39:54,434 - INFO - Processing date 33/120: 2024-12-03
+2025-04-09 17:39:54,434 - INFO - Processing day: 2024-12-03
+2025-04-09 17:39:54,481 - INFO - Final bulk write completed. Upserted: 0, Modified: 12
+2025-04-09 17:39:54,481 - INFO - Day 2024-12-03 completed in 0.00 minutes. Total documents processed: 107, Inserted: 0
+2025-04-09 17:39:54,481 - INFO - Progress: 33/120 dates processed (27.5%)
+2025-04-09 17:39:54,481 - INFO - Processing date 34/120: 2024-12-04
+2025-04-09 17:39:54,481 - INFO - Processing day: 2024-12-04
+2025-04-09 17:39:54,549 - INFO - Final bulk write completed. Upserted: 0, Modified: 23
+2025-04-09 17:39:54,549 - INFO - Day 2024-12-04 completed in 0.00 minutes. Total documents processed: 95, Inserted: 0
+2025-04-09 17:39:54,549 - INFO - Progress: 34/120 dates processed (28.3%)
+2025-04-09 17:39:54,549 - INFO - Processing date 35/120: 2024-12-05
+2025-04-09 17:39:54,549 - INFO - Processing day: 2024-12-05
+2025-04-09 17:39:54,586 - INFO - Final bulk write completed. Upserted: 0, Modified: 10
+2025-04-09 17:39:54,586 - INFO - Day 2024-12-05 completed in 0.00 minutes. Total documents processed: 74, Inserted: 0
+2025-04-09 17:39:54,586 - INFO - Progress: 35/120 dates processed (29.2%)
+2025-04-09 17:39:54,586 - INFO - Processing date 36/120: 2024-12-06
+2025-04-09 17:39:54,586 - INFO - Processing day: 2024-12-06
+2025-04-09 17:39:54,614 - INFO - Final bulk write completed. Upserted: 0, Modified: 7
+2025-04-09 17:39:54,614 - INFO - Day 2024-12-06 completed in 0.00 minutes. Total documents processed: 53, Inserted: 0
+2025-04-09 17:39:54,614 - INFO - Progress: 36/120 dates processed (30.0%)
+2025-04-09 17:39:54,614 - INFO - Processing date 37/120: 2024-12-07
+2025-04-09 17:39:54,614 - INFO - Processing day: 2024-12-07
+2025-04-09 17:39:54,652 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:54,652 - INFO - Day 2024-12-07 completed in 0.00 minutes. Total documents processed: 74, Inserted: 0
+2025-04-09 17:39:54,652 - INFO - Progress: 37/120 dates processed (30.8%)
+2025-04-09 17:39:54,652 - INFO - Processing date 38/120: 2024-12-08
+2025-04-09 17:39:54,652 - INFO - Processing day: 2024-12-08
+2025-04-09 17:39:54,757 - INFO - Final bulk write completed. Upserted: 0, Modified: 63
+2025-04-09 17:39:54,757 - INFO - Day 2024-12-08 completed in 0.00 minutes. Total documents processed: 139, Inserted: 0
+2025-04-09 17:39:54,758 - INFO - Progress: 38/120 dates processed (31.7%)
+2025-04-09 17:39:54,758 - INFO - Processing date 39/120: 2024-12-09
+2025-04-09 17:39:54,758 - INFO - Processing day: 2024-12-09
+2025-04-09 17:39:54,791 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:54,791 - INFO - Day 2024-12-09 completed in 0.00 minutes. Total documents processed: 67, Inserted: 0
+2025-04-09 17:39:54,791 - INFO - Progress: 39/120 dates processed (32.5%)
+2025-04-09 17:39:54,792 - INFO - Processing date 40/120: 2024-12-10
+2025-04-09 17:39:54,792 - INFO - Processing day: 2024-12-10
+2025-04-09 17:39:54,829 - INFO - Final bulk write completed. Upserted: 0, Modified: 11
+2025-04-09 17:39:54,829 - INFO - Day 2024-12-10 completed in 0.00 minutes. Total documents processed: 76, Inserted: 0
+2025-04-09 17:39:54,829 - INFO - Progress: 40/120 dates processed (33.3%)
+2025-04-09 17:39:54,829 - INFO - Processing date 41/120: 2024-12-11
+2025-04-09 17:39:54,829 - INFO - Processing day: 2024-12-11
+2025-04-09 17:39:54,861 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:54,861 - INFO - Day 2024-12-11 completed in 0.00 minutes. Total documents processed: 68, Inserted: 0
+2025-04-09 17:39:54,861 - INFO - Progress: 41/120 dates processed (34.2%)
+2025-04-09 17:39:54,861 - INFO - Processing date 42/120: 2024-12-12
+2025-04-09 17:39:54,861 - INFO - Processing day: 2024-12-12
+2025-04-09 17:39:54,890 - INFO - Final bulk write completed. Upserted: 0, Modified: 6
+2025-04-09 17:39:54,890 - INFO - Day 2024-12-12 completed in 0.00 minutes. Total documents processed: 65, Inserted: 0
+2025-04-09 17:39:54,890 - INFO - Progress: 42/120 dates processed (35.0%)
+2025-04-09 17:39:54,890 - INFO - Processing date 43/120: 2024-12-13
+2025-04-09 17:39:54,890 - INFO - Processing day: 2024-12-13
+2025-04-09 17:39:54,946 - INFO - Final bulk write completed. Upserted: 0, Modified: 17
+2025-04-09 17:39:54,946 - INFO - Day 2024-12-13 completed in 0.00 minutes. Total documents processed: 78, Inserted: 0
+2025-04-09 17:39:54,947 - INFO - Progress: 43/120 dates processed (35.8%)
+2025-04-09 17:39:54,947 - INFO - Processing date 44/120: 2024-12-14
+2025-04-09 17:39:54,947 - INFO - Processing day: 2024-12-14
+2025-04-09 17:39:55,110 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:55,110 - INFO - Day 2024-12-14 completed in 0.00 minutes. Total documents processed: 89, Inserted: 0
+2025-04-09 17:39:55,110 - INFO - Progress: 44/120 dates processed (36.7%)
+2025-04-09 17:39:55,110 - INFO - Processing date 45/120: 2024-12-15
+2025-04-09 17:39:55,110 - INFO - Processing day: 2024-12-15
+2025-04-09 17:39:55,155 - INFO - Final bulk write completed. Upserted: 0, Modified: 4
+2025-04-09 17:39:55,155 - INFO - Day 2024-12-15 completed in 0.00 minutes. Total documents processed: 106, Inserted: 0
+2025-04-09 17:39:55,155 - INFO - Progress: 45/120 dates processed (37.5%)
+2025-04-09 17:39:55,155 - INFO - Processing date 46/120: 2024-12-16
+2025-04-09 17:39:55,155 - INFO - Processing day: 2024-12-16
+2025-04-09 17:39:55,195 - INFO - Final bulk write completed. Upserted: 0, Modified: 5
+2025-04-09 17:39:55,195 - INFO - Day 2024-12-16 completed in 0.00 minutes. Total documents processed: 85, Inserted: 0
+2025-04-09 17:39:55,195 - INFO - Progress: 46/120 dates processed (38.3%)
+2025-04-09 17:39:55,195 - INFO - Processing date 47/120: 2024-12-17
+2025-04-09 17:39:55,195 - INFO - Processing day: 2024-12-17
+2025-04-09 17:39:55,265 - INFO - Final bulk write completed. Upserted: 0, Modified: 40
+2025-04-09 17:39:55,266 - INFO - Day 2024-12-17 completed in 0.00 minutes. Total documents processed: 115, Inserted: 0
+2025-04-09 17:39:55,266 - INFO - Progress: 47/120 dates processed (39.2%)
+2025-04-09 17:39:55,266 - INFO - Processing date 48/120: 2024-12-18
+2025-04-09 17:39:55,266 - INFO - Processing day: 2024-12-18
+2025-04-09 17:39:55,307 - INFO - Final bulk write completed. Upserted: 0, Modified: 10
+2025-04-09 17:39:55,307 - INFO - Day 2024-12-18 completed in 0.00 minutes. Total documents processed: 95, Inserted: 0
+2025-04-09 17:39:55,307 - INFO - Progress: 48/120 dates processed (40.0%)
+2025-04-09 17:39:55,307 - INFO - Processing date 49/120: 2024-12-19
+2025-04-09 17:39:55,307 - INFO - Processing day: 2024-12-19
+2025-04-09 17:39:55,363 - INFO - Final bulk write completed. Upserted: 0, Modified: 30
+2025-04-09 17:39:55,363 - INFO - Day 2024-12-19 completed in 0.00 minutes. Total documents processed: 84, Inserted: 0
+2025-04-09 17:39:55,364 - INFO - Progress: 49/120 dates processed (40.8%)
+2025-04-09 17:39:55,364 - INFO - Processing date 50/120: 2024-12-20
+2025-04-09 17:39:55,364 - INFO - Processing day: 2024-12-20
+2025-04-09 17:39:55,420 - INFO - Final bulk write completed. Upserted: 0, Modified: 17
+2025-04-09 17:39:55,420 - INFO - Day 2024-12-20 completed in 0.00 minutes. Total documents processed: 119, Inserted: 0
+2025-04-09 17:39:55,420 - INFO - Progress: 50/120 dates processed (41.7%)
+2025-04-09 17:39:55,421 - INFO - Processing date 51/120: 2024-12-21
+2025-04-09 17:39:55,421 - INFO - Processing day: 2024-12-21
+2025-04-09 17:39:55,463 - INFO - Final bulk write completed. Upserted: 0, Modified: 4
+2025-04-09 17:39:55,463 - INFO - Day 2024-12-21 completed in 0.00 minutes. Total documents processed: 100, Inserted: 0
+2025-04-09 17:39:55,463 - INFO - Progress: 51/120 dates processed (42.5%)
+2025-04-09 17:39:55,463 - INFO - Processing date 52/120: 2024-12-22
+2025-04-09 17:39:55,463 - INFO - Processing day: 2024-12-22
+2025-04-09 17:39:55,512 - INFO - Final bulk write completed. Upserted: 0, Modified: 15
+2025-04-09 17:39:55,512 - INFO - Day 2024-12-22 completed in 0.00 minutes. Total documents processed: 112, Inserted: 0
+2025-04-09 17:39:55,512 - INFO - Progress: 52/120 dates processed (43.3%)
+2025-04-09 17:39:55,512 - INFO - Processing date 53/120: 2024-12-23
+2025-04-09 17:39:55,512 - INFO - Processing day: 2024-12-23
+2025-04-09 17:39:55,563 - INFO - Final bulk write completed. Upserted: 0, Modified: 25
+2025-04-09 17:39:55,563 - INFO - Day 2024-12-23 completed in 0.00 minutes. Total documents processed: 107, Inserted: 0
+2025-04-09 17:39:55,563 - INFO - Progress: 53/120 dates processed (44.2%)
+2025-04-09 17:39:55,563 - INFO - Processing date 54/120: 2024-12-24
+2025-04-09 17:39:55,563 - INFO - Processing day: 2024-12-24
+2025-04-09 17:39:55,625 - INFO - Final bulk write completed. Upserted: 0, Modified: 10
+2025-04-09 17:39:55,625 - INFO - Day 2024-12-24 completed in 0.00 minutes. Total documents processed: 123, Inserted: 0
+2025-04-09 17:39:55,625 - INFO - Progress: 54/120 dates processed (45.0%)
+2025-04-09 17:39:55,625 - INFO - Processing date 55/120: 2024-12-25
+2025-04-09 17:39:55,625 - INFO - Processing day: 2024-12-25
+2025-04-09 17:39:55,700 - INFO - Final bulk write completed. Upserted: 0, Modified: 6
+2025-04-09 17:39:55,700 - INFO - Day 2024-12-25 completed in 0.00 minutes. Total documents processed: 126, Inserted: 0
+2025-04-09 17:39:55,700 - INFO - Progress: 55/120 dates processed (45.8%)
+2025-04-09 17:39:55,700 - INFO - Processing date 56/120: 2024-12-26
+2025-04-09 17:39:55,700 - INFO - Processing day: 2024-12-26
+2025-04-09 17:39:55,741 - INFO - Final bulk write completed. Upserted: 0, Modified: 7
+2025-04-09 17:39:55,742 - INFO - Day 2024-12-26 completed in 0.00 minutes. Total documents processed: 96, Inserted: 0
+2025-04-09 17:39:55,742 - INFO - Progress: 56/120 dates processed (46.7%)
+2025-04-09 17:39:55,742 - INFO - Processing date 57/120: 2024-12-27
+2025-04-09 17:39:55,742 - INFO - Processing day: 2024-12-27
+2025-04-09 17:39:55,793 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:55,793 - INFO - Day 2024-12-27 completed in 0.00 minutes. Total documents processed: 123, Inserted: 0
+2025-04-09 17:39:55,794 - INFO - Progress: 57/120 dates processed (47.5%)
+2025-04-09 17:39:55,794 - INFO - Processing date 58/120: 2024-12-28
+2025-04-09 17:39:55,794 - INFO - Processing day: 2024-12-28
+2025-04-09 17:39:55,944 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:55,944 - INFO - Day 2024-12-28 completed in 0.00 minutes. Total documents processed: 106, Inserted: 0
+2025-04-09 17:39:55,944 - INFO - Progress: 58/120 dates processed (48.3%)
+2025-04-09 17:39:55,944 - INFO - Processing date 59/120: 2024-12-29
+2025-04-09 17:39:55,944 - INFO - Processing day: 2024-12-29
+2025-04-09 17:39:55,984 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:55,984 - INFO - Day 2024-12-29 completed in 0.00 minutes. Total documents processed: 94, Inserted: 0
+2025-04-09 17:39:55,984 - INFO - Progress: 59/120 dates processed (49.2%)
+2025-04-09 17:39:55,984 - INFO - Processing date 60/120: 2024-12-30
+2025-04-09 17:39:55,984 - INFO - Processing day: 2024-12-30
+2025-04-09 17:39:56,022 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:56,022 - INFO - Day 2024-12-30 completed in 0.00 minutes. Total documents processed: 59, Inserted: 0
+2025-04-09 17:39:56,022 - INFO - Progress: 60/120 dates processed (50.0%)
+2025-04-09 17:39:56,022 - INFO - Processing date 61/120: 2024-12-31
+2025-04-09 17:39:56,022 - INFO - Processing day: 2024-12-31
+2025-04-09 17:39:56,072 - INFO - Final bulk write completed. Upserted: 0, Modified: 14
+2025-04-09 17:39:56,072 - INFO - Day 2024-12-31 completed in 0.00 minutes. Total documents processed: 114, Inserted: 0
+2025-04-09 17:39:56,072 - INFO - Progress: 61/120 dates processed (50.8%)
+2025-04-09 17:39:56,072 - INFO - Processing date 62/120: 2025-01-01
+2025-04-09 17:39:56,072 - INFO - Processing day: 2025-01-01
+2025-04-09 17:39:56,115 - INFO - Final bulk write completed. Upserted: 0, Modified: 5
+2025-04-09 17:39:56,115 - INFO - Day 2025-01-01 completed in 0.00 minutes. Total documents processed: 102, Inserted: 0
+2025-04-09 17:39:56,115 - INFO - Progress: 62/120 dates processed (51.7%)
+2025-04-09 17:39:56,115 - INFO - Processing date 63/120: 2025-01-02
+2025-04-09 17:39:56,115 - INFO - Processing day: 2025-01-02
+2025-04-09 17:39:56,165 - INFO - Final bulk write completed. Upserted: 0, Modified: 12
+2025-04-09 17:39:56,165 - INFO - Day 2025-01-02 completed in 0.00 minutes. Total documents processed: 110, Inserted: 0
+2025-04-09 17:39:56,165 - INFO - Progress: 63/120 dates processed (52.5%)
+2025-04-09 17:39:56,165 - INFO - Processing date 64/120: 2025-01-03
+2025-04-09 17:39:56,165 - INFO - Processing day: 2025-01-03
+2025-04-09 17:39:56,211 - INFO - Final bulk write completed. Upserted: 0, Modified: 14
+2025-04-09 17:39:56,211 - INFO - Day 2025-01-03 completed in 0.00 minutes. Total documents processed: 94, Inserted: 0
+2025-04-09 17:39:56,211 - INFO - Progress: 64/120 dates processed (53.3%)
+2025-04-09 17:39:56,211 - INFO - Processing date 65/120: 2025-01-04
+2025-04-09 17:39:56,211 - INFO - Processing day: 2025-01-04
+2025-04-09 17:39:56,263 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:56,263 - INFO - Day 2025-01-04 completed in 0.00 minutes. Total documents processed: 104, Inserted: 0
+2025-04-09 17:39:56,263 - INFO - Progress: 65/120 dates processed (54.2%)
+2025-04-09 17:39:56,263 - INFO - Processing date 66/120: 2025-01-05
+2025-04-09 17:39:56,263 - INFO - Processing day: 2025-01-05
+2025-04-09 17:39:56,312 - INFO - Final bulk write completed. Upserted: 0, Modified: 13
+2025-04-09 17:39:56,313 - INFO - Day 2025-01-05 completed in 0.00 minutes. Total documents processed: 100, Inserted: 0
+2025-04-09 17:39:56,313 - INFO - Progress: 66/120 dates processed (55.0%)
+2025-04-09 17:39:56,313 - INFO - Processing date 67/120: 2025-01-06
+2025-04-09 17:39:56,313 - INFO - Processing day: 2025-01-06
+2025-04-09 17:39:56,360 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:56,360 - INFO - Day 2025-01-06 completed in 0.00 minutes. Total documents processed: 111, Inserted: 0
+2025-04-09 17:39:56,360 - INFO - Progress: 67/120 dates processed (55.8%)
+2025-04-09 17:39:56,360 - INFO - Processing date 68/120: 2025-01-07
+2025-04-09 17:39:56,360 - INFO - Processing day: 2025-01-07
+2025-04-09 17:39:56,428 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:56,428 - INFO - Day 2025-01-07 completed in 0.00 minutes. Total documents processed: 107, Inserted: 0
+2025-04-09 17:39:56,428 - INFO - Progress: 68/120 dates processed (56.7%)
+2025-04-09 17:39:56,428 - INFO - Processing date 69/120: 2025-01-08
+2025-04-09 17:39:56,428 - INFO - Processing day: 2025-01-08
+2025-04-09 17:39:56,473 - INFO - Final bulk write completed. Upserted: 0, Modified: 14
+2025-04-09 17:39:56,473 - INFO - Day 2025-01-08 completed in 0.00 minutes. Total documents processed: 89, Inserted: 0
+2025-04-09 17:39:56,473 - INFO - Progress: 69/120 dates processed (57.5%)
+2025-04-09 17:39:56,473 - INFO - Processing date 70/120: 2025-01-09
+2025-04-09 17:39:56,473 - INFO - Processing day: 2025-01-09
+2025-04-09 17:39:56,519 - INFO - Final bulk write completed. Upserted: 0, Modified: 7
+2025-04-09 17:39:56,519 - INFO - Day 2025-01-09 completed in 0.00 minutes. Total documents processed: 104, Inserted: 0
+2025-04-09 17:39:56,519 - INFO - Progress: 70/120 dates processed (58.3%)
+2025-04-09 17:39:56,519 - INFO - Processing date 71/120: 2025-01-10
+2025-04-09 17:39:56,519 - INFO - Processing day: 2025-01-10
+2025-04-09 17:39:56,572 - INFO - Final bulk write completed. Upserted: 0, Modified: 11
+2025-04-09 17:39:56,572 - INFO - Day 2025-01-10 completed in 0.00 minutes. Total documents processed: 121, Inserted: 0
+2025-04-09 17:39:56,572 - INFO - Progress: 71/120 dates processed (59.2%)
+2025-04-09 17:39:56,572 - INFO - Processing date 72/120: 2025-01-11
+2025-04-09 17:39:56,572 - INFO - Processing day: 2025-01-11
+2025-04-09 17:39:56,614 - INFO - Final bulk write completed. Upserted: 0, Modified: 3
+2025-04-09 17:39:56,614 - INFO - Day 2025-01-11 completed in 0.00 minutes. Total documents processed: 102, Inserted: 0
+2025-04-09 17:39:56,614 - INFO - Progress: 72/120 dates processed (60.0%)
+2025-04-09 17:39:56,614 - INFO - Processing date 73/120: 2025-01-12
+2025-04-09 17:39:56,614 - INFO - Processing day: 2025-01-12
+2025-04-09 17:39:56,668 - INFO - Final bulk write completed. Upserted: 0, Modified: 14
+2025-04-09 17:39:56,668 - INFO - Day 2025-01-12 completed in 0.00 minutes. Total documents processed: 114, Inserted: 0
+2025-04-09 17:39:56,668 - INFO - Progress: 73/120 dates processed (60.8%)
+2025-04-09 17:39:56,669 - INFO - Processing date 74/120: 2025-01-13
+2025-04-09 17:39:56,669 - INFO - Processing day: 2025-01-13
+2025-04-09 17:39:56,716 - INFO - Final bulk write completed. Upserted: 0, Modified: 6
+2025-04-09 17:39:56,716 - INFO - Day 2025-01-13 completed in 0.00 minutes. Total documents processed: 101, Inserted: 0
+2025-04-09 17:39:56,716 - INFO - Progress: 74/120 dates processed (61.7%)
+2025-04-09 17:39:56,716 - INFO - Processing date 75/120: 2025-01-14
+2025-04-09 17:39:56,717 - INFO - Processing day: 2025-01-14
+2025-04-09 17:39:56,770 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:56,770 - INFO - Day 2025-01-14 completed in 0.00 minutes. Total documents processed: 101, Inserted: 0
+2025-04-09 17:39:56,771 - INFO - Progress: 75/120 dates processed (62.5%)
+2025-04-09 17:39:56,771 - INFO - Processing date 76/120: 2025-01-15
+2025-04-09 17:39:56,771 - INFO - Processing day: 2025-01-15
+2025-04-09 17:39:56,823 - INFO - Final bulk write completed. Upserted: 0, Modified: 29
+2025-04-09 17:39:56,823 - INFO - Day 2025-01-15 completed in 0.00 minutes. Total documents processed: 102, Inserted: 0
+2025-04-09 17:39:56,823 - INFO - Progress: 76/120 dates processed (63.3%)
+2025-04-09 17:39:56,823 - INFO - Processing date 77/120: 2025-01-16
+2025-04-09 17:39:56,823 - INFO - Processing day: 2025-01-16
+2025-04-09 17:39:56,860 - INFO - Final bulk write completed. Upserted: 0, Modified: 4
+2025-04-09 17:39:56,860 - INFO - Day 2025-01-16 completed in 0.00 minutes. Total documents processed: 88, Inserted: 0
+2025-04-09 17:39:56,861 - INFO - Progress: 77/120 dates processed (64.2%)
+2025-04-09 17:39:56,861 - INFO - Processing date 78/120: 2025-01-17
+2025-04-09 17:39:56,861 - INFO - Processing day: 2025-01-17
+2025-04-09 17:39:57,508 - INFO - Bulk write completed. Upserted: 0, Modified: 500
+2025-04-09 17:39:57,978 - INFO - Final bulk write completed. Upserted: 0, Modified: 458
+2025-04-09 17:39:57,978 - INFO - Day 2025-01-17 completed in 0.02 minutes. Total documents processed: 2504, Inserted: 0
+2025-04-09 17:39:57,978 - INFO - Progress: 78/120 dates processed (65.0%)
+2025-04-09 17:39:57,978 - INFO - Processing date 79/120: 2025-01-18
+2025-04-09 17:39:57,978 - INFO - Processing day: 2025-01-18
+2025-04-09 17:39:58,053 - INFO - Final bulk write completed. Upserted: 0, Modified: 34
+2025-04-09 17:39:58,053 - INFO - Day 2025-01-18 completed in 0.00 minutes. Total documents processed: 154, Inserted: 0
+2025-04-09 17:39:58,054 - INFO - Progress: 79/120 dates processed (65.8%)
+2025-04-09 17:39:58,054 - INFO - Processing date 80/120: 2025-01-19
+2025-04-09 17:39:58,054 - INFO - Processing day: 2025-01-19
+2025-04-09 17:39:58,096 - INFO - Day 2025-01-19 completed in 0.00 minutes. Total documents processed: 104, Inserted: 0
+2025-04-09 17:39:58,096 - INFO - Progress: 80/120 dates processed (66.7%)
+2025-04-09 17:39:58,096 - INFO - Processing date 81/120: 2025-01-20
+2025-04-09 17:39:58,096 - INFO - Processing day: 2025-01-20
+2025-04-09 17:39:58,131 - INFO - Day 2025-01-20 completed in 0.00 minutes. Total documents processed: 85, Inserted: 0
+2025-04-09 17:39:58,131 - INFO - Progress: 81/120 dates processed (67.5%)
+2025-04-09 17:39:58,131 - INFO - Processing date 82/120: 2025-01-21
+2025-04-09 17:39:58,131 - INFO - Processing day: 2025-01-21
+2025-04-09 17:39:58,170 - INFO - Day 2025-01-21 completed in 0.00 minutes. Total documents processed: 97, Inserted: 0
+2025-04-09 17:39:58,170 - INFO - Progress: 82/120 dates processed (68.3%)
+2025-04-09 17:39:58,170 - INFO - Processing date 83/120: 2025-01-22
+2025-04-09 17:39:58,170 - INFO - Processing day: 2025-01-22
+2025-04-09 17:39:58,218 - INFO - Day 2025-01-22 completed in 0.00 minutes. Total documents processed: 110, Inserted: 0
+2025-04-09 17:39:58,218 - INFO - Progress: 83/120 dates processed (69.2%)
+2025-04-09 17:39:58,219 - INFO - Processing date 84/120: 2025-01-23
+2025-04-09 17:39:58,219 - INFO - Processing day: 2025-01-23
+2025-04-09 17:39:58,263 - INFO - Day 2025-01-23 completed in 0.00 minutes. Total documents processed: 101, Inserted: 0
+2025-04-09 17:39:58,263 - INFO - Progress: 84/120 dates processed (70.0%)
+2025-04-09 17:39:58,263 - INFO - Processing date 85/120: 2025-01-24
+2025-04-09 17:39:58,263 - INFO - Processing day: 2025-01-24
+2025-04-09 17:39:58,302 - INFO - Final bulk write completed. Upserted: 0, Modified: 6
+2025-04-09 17:39:58,303 - INFO - Day 2025-01-24 completed in 0.00 minutes. Total documents processed: 83, Inserted: 0
+2025-04-09 17:39:58,303 - INFO - Progress: 85/120 dates processed (70.8%)
+2025-04-09 17:39:58,303 - INFO - Processing date 86/120: 2025-01-25
+2025-04-09 17:39:58,303 - INFO - Processing day: 2025-01-25
+2025-04-09 17:39:58,338 - INFO - Final bulk write completed. Upserted: 0, Modified: 2
+2025-04-09 17:39:58,339 - INFO - Day 2025-01-25 completed in 0.00 minutes. Total documents processed: 84, Inserted: 0
+2025-04-09 17:39:58,339 - INFO - Progress: 86/120 dates processed (71.7%)
+2025-04-09 17:39:58,339 - INFO - Processing date 87/120: 2025-01-26
+2025-04-09 17:39:58,339 - INFO - Processing day: 2025-01-26
+2025-04-09 17:39:58,380 - INFO - Final bulk write completed. Upserted: 0, Modified: 2
+2025-04-09 17:39:58,380 - INFO - Day 2025-01-26 completed in 0.00 minutes. Total documents processed: 97, Inserted: 0
+2025-04-09 17:39:58,380 - INFO - Progress: 87/120 dates processed (72.5%)
+2025-04-09 17:39:58,380 - INFO - Processing date 88/120: 2025-01-27
+2025-04-09 17:39:58,380 - INFO - Processing day: 2025-01-27
+2025-04-09 17:39:58,422 - INFO - Final bulk write completed. Upserted: 0, Modified: 3
+2025-04-09 17:39:58,422 - INFO - Day 2025-01-27 completed in 0.00 minutes. Total documents processed: 99, Inserted: 0
+2025-04-09 17:39:58,422 - INFO - Progress: 88/120 dates processed (73.3%)
+2025-04-09 17:39:58,422 - INFO - Processing date 89/120: 2025-01-28
+2025-04-09 17:39:58,422 - INFO - Processing day: 2025-01-28
+2025-04-09 17:39:58,468 - INFO - Final bulk write completed. Upserted: 0, Modified: 5
+2025-04-09 17:39:58,468 - INFO - Day 2025-01-28 completed in 0.00 minutes. Total documents processed: 99, Inserted: 0
+2025-04-09 17:39:58,468 - INFO - Progress: 89/120 dates processed (74.2%)
+2025-04-09 17:39:58,468 - INFO - Processing date 90/120: 2025-01-29
+2025-04-09 17:39:58,468 - INFO - Processing day: 2025-01-29
+2025-04-09 17:39:58,513 - INFO - Final bulk write completed. Upserted: 0, Modified: 8
+2025-04-09 17:39:58,513 - INFO - Day 2025-01-29 completed in 0.00 minutes. Total documents processed: 93, Inserted: 0
+2025-04-09 17:39:58,513 - INFO - Progress: 90/120 dates processed (75.0%)
+2025-04-09 17:39:58,513 - INFO - Processing date 91/120: 2025-01-30
+2025-04-09 17:39:58,513 - INFO - Processing day: 2025-01-30
+2025-04-09 17:39:58,563 - INFO - Final bulk write completed. Upserted: 0, Modified: 9
+2025-04-09 17:39:58,563 - INFO - Day 2025-01-30 completed in 0.00 minutes. Total documents processed: 107, Inserted: 0
+2025-04-09 17:39:58,563 - INFO - Progress: 91/120 dates processed (75.8%)
+2025-04-09 17:39:58,563 - INFO - Processing date 92/120: 2025-01-31
+2025-04-09 17:39:58,564 - INFO - Processing day: 2025-01-31
+2025-04-09 17:39:58,597 - INFO - Final bulk write completed. Upserted: 0, Modified: 1
+2025-04-09 17:39:58,597 - INFO - Day 2025-01-31 completed in 0.00 minutes. Total documents processed: 80, Inserted: 0
+2025-04-09 17:39:58,597 - INFO - Progress: 92/120 dates processed (76.7%)
+2025-04-09 17:39:58,597 - INFO - Processing date 93/120: 2025-02-01
+2025-04-09 17:39:58,597 - INFO - Processing day: 2025-02-01
+2025-04-09 17:39:58,641 - INFO - Day 2025-02-01 completed in 0.00 minutes. Total documents processed: 108, Inserted: 0
+2025-04-09 17:39:58,642 - INFO - Progress: 93/120 dates processed (77.5%)
+2025-04-09 17:39:58,642 - INFO - Processing date 94/120: 2025-02-02
+2025-04-09 17:39:58,642 - INFO - Processing day: 2025-02-02
+2025-04-09 17:39:58,683 - INFO - Day 2025-02-02 completed in 0.00 minutes. Total documents processed: 99, Inserted: 0
+2025-04-09 17:39:58,683 - INFO - Progress: 94/120 dates processed (78.3%)
+2025-04-09 17:39:58,683 - INFO - Processing date 95/120: 2025-02-03
+2025-04-09 17:39:58,683 - INFO - Processing day: 2025-02-03
+2025-04-09 17:39:58,722 - INFO - Day 2025-02-03 completed in 0.00 minutes. Total documents processed: 94, Inserted: 0
+2025-04-09 17:39:58,722 - INFO - Progress: 95/120 dates processed (79.2%)
+2025-04-09 17:39:58,722 - INFO - Processing date 96/120: 2025-02-04
+2025-04-09 17:39:58,722 - INFO - Processing day: 2025-02-04
+2025-04-09 17:39:58,768 - INFO - Day 2025-02-04 completed in 0.00 minutes. Total documents processed: 113, Inserted: 0
+2025-04-09 17:39:58,768 - INFO - Progress: 96/120 dates processed (80.0%)
+2025-04-09 17:39:58,768 - INFO - Processing date 97/120: 2025-02-05
+2025-04-09 17:39:58,768 - INFO - Processing day: 2025-02-05
+2025-04-09 17:39:58,801 - INFO - Day 2025-02-05 completed in 0.00 minutes. Total documents processed: 83, Inserted: 0
+2025-04-09 17:39:58,802 - INFO - Progress: 97/120 dates processed (80.8%)
+2025-04-09 17:39:58,802 - INFO - Processing date 98/120: 2025-02-06
+2025-04-09 17:39:58,802 - INFO - Processing day: 2025-02-06
+2025-04-09 17:39:58,836 - INFO - Day 2025-02-06 completed in 0.00 minutes. Total documents processed: 86, Inserted: 0
+2025-04-09 17:39:58,836 - INFO - Progress: 98/120 dates processed (81.7%)
+2025-04-09 17:39:58,836 - INFO - Processing date 99/120: 2025-02-07
+2025-04-09 17:39:58,836 - INFO - Processing day: 2025-02-07
+2025-04-09 17:39:58,875 - INFO - Day 2025-02-07 completed in 0.00 minutes. Total documents processed: 91, Inserted: 0
+2025-04-09 17:39:58,876 - INFO - Progress: 99/120 dates processed (82.5%)
+2025-04-09 17:39:58,876 - INFO - Processing date 100/120: 2025-02-08
+2025-04-09 17:39:58,876 - INFO - Processing day: 2025-02-08
+2025-04-09 17:39:58,914 - INFO - Day 2025-02-08 completed in 0.00 minutes. Total documents processed: 92, Inserted: 0
+2025-04-09 17:39:58,914 - INFO - Progress: 100/120 dates processed (83.3%)
+2025-04-09 17:39:58,914 - INFO - Processing date 101/120: 2025-02-09
+2025-04-09 17:39:58,914 - INFO - Processing day: 2025-02-09
+2025-04-09 17:39:58,954 - INFO - Day 2025-02-09 completed in 0.00 minutes. Total documents processed: 95, Inserted: 0
+2025-04-09 17:39:58,954 - INFO - Progress: 101/120 dates processed (84.2%)
+2025-04-09 17:39:58,954 - INFO - Processing date 102/120: 2025-02-10
+2025-04-09 17:39:58,954 - INFO - Processing day: 2025-02-10
+2025-04-09 17:39:59,054 - INFO - Day 2025-02-10 completed in 0.00 minutes. Total documents processed: 249, Inserted: 0
+2025-04-09 17:39:59,054 - INFO - Progress: 102/120 dates processed (85.0%)
+2025-04-09 17:39:59,054 - INFO - Processing date 103/120: 2025-02-11
+2025-04-09 17:39:59,054 - INFO - Processing day: 2025-02-11
+2025-04-09 17:39:59,714 - INFO - Day 2025-02-11 completed in 0.01 minutes. Total documents processed: 1656, Inserted: 0
+2025-04-09 17:39:59,715 - INFO - Progress: 103/120 dates processed (85.8%)
+2025-04-09 17:39:59,715 - INFO - Processing date 104/120: 2025-02-12
+2025-04-09 17:39:59,715 - INFO - Processing day: 2025-02-12
+2025-04-09 17:40:03,317 - INFO - Processed 10000 documents for date 2025-02-12
+2025-04-09 17:40:07,188 - INFO - Processed 20000 documents for date 2025-02-12
+2025-04-09 17:40:08,988 - INFO - Day 2025-02-12 completed in 0.15 minutes. Total documents processed: 24582, Inserted: 0
+2025-04-09 17:40:08,988 - INFO - Progress: 104/120 dates processed (86.7%)
+2025-04-09 17:40:08,988 - INFO - Processing date 105/120: 2025-02-13
+2025-04-09 17:40:08,988 - INFO - Processing day: 2025-02-13
+2025-04-09 17:40:09,554 - INFO - Day 2025-02-13 completed in 0.01 minutes. Total documents processed: 1411, Inserted: 0
+2025-04-09 17:40:09,554 - INFO - Progress: 105/120 dates processed (87.5%)
+2025-04-09 17:40:09,554 - INFO - Processing date 106/120: 2025-02-14
+2025-04-09 17:40:09,554 - INFO - Processing day: 2025-02-14
+2025-04-09 17:40:10,122 - INFO - Day 2025-02-14 completed in 0.01 minutes. Total documents processed: 1452, Inserted: 0
+2025-04-09 17:40:10,123 - INFO - Progress: 106/120 dates processed (88.3%)
+2025-04-09 17:40:10,123 - INFO - Processing date 107/120: 2025-02-15
+2025-04-09 17:40:10,123 - INFO - Processing day: 2025-02-15
+2025-04-09 17:40:10,804 - INFO - Day 2025-02-15 completed in 0.01 minutes. Total documents processed: 1732, Inserted: 0
+2025-04-09 17:40:10,805 - INFO - Progress: 107/120 dates processed (89.2%)
+2025-04-09 17:40:10,805 - INFO - Processing date 108/120: 2025-02-16
+2025-04-09 17:40:10,805 - INFO - Processing day: 2025-02-16
+2025-04-09 17:40:11,113 - INFO - Day 2025-02-16 completed in 0.01 minutes. Total documents processed: 764, Inserted: 0
+2025-04-09 17:40:11,113 - INFO - Progress: 108/120 dates processed (90.0%)
+2025-04-09 17:40:11,113 - INFO - Processing date 109/120: 2025-02-17
+2025-04-09 17:40:11,113 - INFO - Processing day: 2025-02-17
+2025-04-09 17:40:11,502 - INFO - Day 2025-02-17 completed in 0.01 minutes. Total documents processed: 961, Inserted: 0
+2025-04-09 17:40:11,502 - INFO - Progress: 109/120 dates processed (90.8%)
+2025-04-09 17:40:11,502 - INFO - Processing date 110/120: 2025-02-18
+2025-04-09 17:40:11,503 - INFO - Processing day: 2025-02-18
+2025-04-09 17:40:11,946 - INFO - Day 2025-02-18 completed in 0.01 minutes. Total documents processed: 1131, Inserted: 0
+2025-04-09 17:40:11,947 - INFO - Progress: 110/120 dates processed (91.7%)
+2025-04-09 17:40:11,947 - INFO - Processing date 111/120: 2025-02-19
+2025-04-09 17:40:11,947 - INFO - Processing day: 2025-02-19
+2025-04-09 17:40:15,706 - INFO - Processed 10000 documents for date 2025-02-19
+2025-04-09 17:40:17,160 - INFO - Day 2025-02-19 completed in 0.09 minutes. Total documents processed: 13698, Inserted: 0
+2025-04-09 17:40:17,160 - INFO - Progress: 111/120 dates processed (92.5%)
+2025-04-09 17:40:17,161 - INFO - Processing date 112/120: 2025-02-20
+2025-04-09 17:40:17,161 - INFO - Processing day: 2025-02-20
+2025-04-09 17:40:17,627 - INFO - Day 2025-02-20 completed in 0.01 minutes. Total documents processed: 1176, Inserted: 0
+2025-04-09 17:40:17,627 - INFO - Progress: 112/120 dates processed (93.3%)
+2025-04-09 17:40:17,627 - INFO - Processing date 113/120: 2025-02-21
+2025-04-09 17:40:17,628 - INFO - Processing day: 2025-02-21
+2025-04-09 17:40:18,330 - INFO - Day 2025-02-21 completed in 0.01 minutes. Total documents processed: 1802, Inserted: 0
+2025-04-09 17:40:18,330 - INFO - Progress: 113/120 dates processed (94.2%)
+2025-04-09 17:40:18,330 - INFO - Processing date 114/120: 2025-02-22
+2025-04-09 17:40:18,330 - INFO - Processing day: 2025-02-22
+2025-04-09 17:40:18,726 - INFO - Day 2025-02-22 completed in 0.01 minutes. Total documents processed: 1005, Inserted: 0
+2025-04-09 17:40:18,726 - INFO - Progress: 114/120 dates processed (95.0%)
+2025-04-09 17:40:18,726 - INFO - Processing date 115/120: 2025-02-23
+2025-04-09 17:40:18,726 - INFO - Processing day: 2025-02-23
+2025-04-09 17:40:19,059 - INFO - Day 2025-02-23 completed in 0.01 minutes. Total documents processed: 837, Inserted: 0
+2025-04-09 17:40:19,059 - INFO - Progress: 115/120 dates processed (95.8%)
+2025-04-09 17:40:19,059 - INFO - Processing date 116/120: 2025-02-24
+2025-04-09 17:40:19,059 - INFO - Processing day: 2025-02-24
+2025-04-09 17:40:19,384 - INFO - Day 2025-02-24 completed in 0.01 minutes. Total documents processed: 822, Inserted: 0
+2025-04-09 17:40:19,384 - INFO - Progress: 116/120 dates processed (96.7%)
+2025-04-09 17:40:19,384 - INFO - Processing date 117/120: 2025-02-25
+2025-04-09 17:40:19,384 - INFO - Processing day: 2025-02-25
+2025-04-09 17:40:19,962 - INFO - Day 2025-02-25 completed in 0.01 minutes. Total documents processed: 1459, Inserted: 0
+2025-04-09 17:40:19,963 - INFO - Progress: 117/120 dates processed (97.5%)
+2025-04-09 17:40:19,963 - INFO - Processing date 118/120: 2025-02-26
+2025-04-09 17:40:19,963 - INFO - Processing day: 2025-02-26
+2025-04-09 17:40:20,950 - INFO - Day 2025-02-26 completed in 0.02 minutes. Total documents processed: 2504, Inserted: 0
+2025-04-09 17:40:20,950 - INFO - Progress: 118/120 dates processed (98.3%)
+2025-04-09 17:40:20,950 - INFO - Processing date 119/120: 2025-02-27
+2025-04-09 17:40:20,950 - INFO - Processing day: 2025-02-27
+2025-04-09 17:40:21,778 - INFO - Day 2025-02-27 completed in 0.01 minutes. Total documents processed: 2107, Inserted: 0
+2025-04-09 17:40:21,779 - INFO - Progress: 119/120 dates processed (99.2%)
+2025-04-09 17:40:21,779 - INFO - Processing date 120/120: 2025-02-28
+2025-04-09 17:40:21,779 - INFO - Processing day: 2025-02-28
+2025-04-09 17:40:22,370 - INFO - Day 2025-02-28 completed in 0.01 minutes. Total documents processed: 1487, Inserted: 0
+2025-04-09 17:40:22,370 - INFO - Progress: 120/120 dates processed (100.0%)
+2025-04-09 17:40:22,370 - INFO - All processing completed. Total time: 0.50 minutes
+2025-04-09 17:40:22,370 - INFO - Total documents processed: 0
+2025-04-09 17:40:22,374 - INFO - Data processing job ended
+2025-04-10 13:09:10,396 - INFO - Starting data processing job
+2025-04-10 13:09:10,401 - INFO - MongoDB connection established
+2025-04-10 13:09:10,402 - INFO - Checking and creating required indexes...
+2025-04-10 13:09:10,416 - INFO - All required indexes are in place
+2025-04-10 13:09:10,417 - INFO - Retrieving distinct dates for processing
+2025-04-10 13:09:10,422 - INFO - Found 120 dates to process
+2025-04-10 13:09:10,422 - INFO - Data processing job ended
+2025-04-10 13:11:23,741 - INFO - Starting data processing job
+2025-04-10 13:11:23,747 - INFO - MongoDB connection established
+2025-04-10 13:11:23,747 - INFO - Checking and creating required indexes...
+2025-04-10 13:11:23,762 - INFO - All required indexes are in place
+2025-04-10 13:11:23,762 - INFO - Retrieving distinct dates for processing
+2025-04-10 13:11:23,763 - INFO - Found 120 dates to process
+2025-04-10 13:11:23,763 - INFO - Data processing job ended
+2025-04-10 13:11:32,899 - INFO - Starting data processing job
+2025-04-10 13:11:32,904 - INFO - MongoDB connection established
+2025-04-10 13:11:32,905 - INFO - Checking and creating required indexes...
+2025-04-10 13:11:32,920 - INFO - All required indexes are in place
+2025-04-10 13:11:32,920 - INFO - Retrieving distinct dates for processing
+2025-04-10 13:11:32,921 - INFO - Found 120 dates to process
+2025-04-10 13:11:32,921 - INFO - Data processing job ended
